@@ -1,4 +1,4 @@
-# Stock Prediction using Long-Short Term Memory (LSTM) Networks
+# Stock Price Prediction using Long-Short Term Memory (LSTM) Networks
 
 ## Description
 This project aims to develop a robust stock price prediction model utilizing Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN) well-suited for time-series forecasting. The model leverages historical stock price data to identify patterns and trends, enabling it to predict future stock prices with improved accuracy.
