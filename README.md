@@ -4,12 +4,18 @@
 This project aims to develop a robust stock price prediction model utilizing Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN) well-suited for time-series forecasting. The model leverages historical stock price data to identify patterns and trends, enabling it to predict future stock prices with improved accuracy.
 
 ### Key Features:
-- **Data Collection**: The project fetches historical stock data from Yahoo Finance using the yfinance library, allowing for easy access to a wide range of stock tickers.
-- **Data Preprocessing**: The data is preprocessed using Min-Max scaling to normalize the price values, ensuring that the LSTM model can learn effectively from the input data.
-- **LSTM Model Architecture**: The model is built using Keras, featuring multiple LSTM layers with dropout regularization to prevent overfitting. The architecture is designed to capture long-term dependencies in the stock price data.
-- **Training and Evaluation**: The model is trained on a portion of the historical data, with the remaining data reserved for testing. Performance metrics such as Mean Squared Error (MSE) and Mean Absolute Error (MAE) are used to evaluate the model's accuracy.
-- **Future Price Prediction**: After training, the model can predict future stock prices for a specified number of days, providing valuable insights for investors and traders.
-Visualization: The project includes visualizations that compare actual stock prices with predicted prices, helping to assess the model's performance visually.
+- **Data Collection**:
+  The project fetches historical stock data from Yahoo Finance using the yfinance library, allowing for easy access to a wide range of stock tickers.
+- **Data Preprocessing**:
+  The data is preprocessed using Min-Max scaling to normalize the price values, ensuring that the LSTM model can learn effectively from the input data.
+- **LSTM Model Architecture**:
+  The model is built using Keras, featuring multiple LSTM layers with dropout regularization to prevent overfitting. The architecture is designed to capture long-term dependencies in the stock price data.
+- **Training and Evaluation**:
+  The model is trained on a portion of the historical data, with the remaining data reserved for testing. Performance metrics such as Mean Squared Error (MSE) and Mean Absolute Error (MAE) are used to evaluate the     model's accuracy.
+- **Future Price Prediction**:
+  After training, the model can predict future stock prices for a specified number of days, providing valuable insights for investors and traders.
+- **Visualization**:
+  The project includes visualizations that compare actual stock prices with predicted prices, helping to assess the model's performance visually.
 
 ### Technologies Used
 - **Python (3.7 and above recommended)**
